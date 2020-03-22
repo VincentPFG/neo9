@@ -12,6 +12,8 @@ module.exports =
 			]
 			'coffeescript'
 			'vuetify'
+			use: 'commerce'
+			options: apiKey: 'pk_test_17906550bd7c7acc2325b68138714acb792a9dd2bcc1b'
 		]
 		'gridsome-plugin-pug'
 		use: '@gridsome/source-filesystem'

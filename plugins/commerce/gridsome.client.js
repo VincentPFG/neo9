@@ -2,5 +2,5 @@
 import Commerce from '@chec/commerce.js';
 
 export default function(Vue, {apiKey}) {
-  return Vue.prototype.$commerce = new Commerce(apiKey);
+  return Vue.prototype.$commerce = new Commerce(apiKey, true);
 };
