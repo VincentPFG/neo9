@@ -1,6 +1,6 @@
 backend:
     name: github
-    repo: VincentPFG/neo
+    repo: VincentPFG/neo9
 
 media_folder: static/uploads
 public_folder: /uploads
