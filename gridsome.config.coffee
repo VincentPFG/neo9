@@ -16,6 +16,11 @@ module.exports =
 			options: apiKey: 'pk_test_17906550bd7c7acc2325b68138714acb792a9dd2bcc1b'
 			use: 'gotrue'
 			options: APIUrl: 'https://neo9.netlify.com/.netlify/identity'
+			# use: 'vuex'
+			# options:
+			# 	state: count: 0
+			# 	mutations:
+			# 		increment: ({count}) -> count++
 		]
 		'gridsome-plugin-pug'
 		use: '@gridsome/source-filesystem'
